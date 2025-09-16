@@ -24,4 +24,4 @@ var utils = require("@rehantesla/utils");
 
 # LICENSE
 
-## [MIT](LICENSE.md)
+### [MIT](LICENSE.md)
