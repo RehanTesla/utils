@@ -1,0 +1,14 @@
+# Source code
+src/
+tsconfig.json
+
+# Test files
+test/
+*.spec.js
+
+# Config
+.gitignore
+.npmignore
+
+# Lock & metadata
+package-lock.json
