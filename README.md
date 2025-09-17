@@ -5,7 +5,7 @@ Helper JavaScript
 # Install
 
 ```bash
-npm install @rehantesla/utils@github:RehanTesla/utils#main
+npm install @rehantesla/utils@github:RehanTesla/utils
 ```
 
 # Usage
