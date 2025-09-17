@@ -1,5 +1,5 @@
 import fs from "fs";
-import isString from "IsString.js";
+import isString from "./IsString.js";
 function isSameFile(p1, p2) {
     if (!isString(arg1)) {
         throw new TypeError("[ARG_1] must be a string");
