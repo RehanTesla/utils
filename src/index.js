@@ -26,7 +26,7 @@ import pickRandom from "./PickRandom.js";
 import randomNumber from "./RandomNumber.js";
 import randomRange from "./RandomRange.js";
 import reloadFile from "./ReloadFile.js";
-import removingLeadingZeros from "./RemovingLeadingZeros.js";
+import removeLeadingZeros from "./RemoveLeadingZeros.js";
 import renameKey from "./RenameKey.js";
 import sleep from "./Sleep.js";
 import textToHex from "./TextToHex.js";
@@ -60,7 +60,7 @@ const defaults = {
     randomNumber,
     randomRange,
     reloadFile,
-    removingLeadingZeros,
+    removeLeadingZeros,
     renameKey,
     sleep,
     textToHex,
@@ -96,7 +96,7 @@ export {
     randomNumber,
     randomRange,
     reloadFile,
-    removingLeadingZeros,
+    removeLeadingZeros,
     renameKey,
     sleep,
     textToHex,
