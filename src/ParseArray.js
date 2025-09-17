@@ -4,4 +4,5 @@ const parseArray = arr => {
     }
     return arr;
 };
+parseArray.fileURL = import.meta.url;
 export { parseArray as default, parseArray };
