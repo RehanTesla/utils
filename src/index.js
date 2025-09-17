@@ -31,6 +31,7 @@ import renameKey from "./RenameKey.js";
 import sleep from "./Sleep.js";
 import textToHex from "./TextToHex.js";
 import times from "./Times.js";
+import toPlainObject from "./ToPlainObject.js";
 const defaults = {
     capitalizeEachWord,
     clearLog,
@@ -64,7 +65,8 @@ const defaults = {
     renameKey,
     sleep,
     textToHex,
-    times
+    times,
+    toPlainObject
 };
 export {
     defaults as default,
@@ -100,5 +102,6 @@ export {
     renameKey,
     sleep,
     textToHex,
-    times
+    times,
+    toPlainObject
 };
