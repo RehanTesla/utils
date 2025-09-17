@@ -32,6 +32,5 @@ yarn-error.log*
 # Dependency lock
 package-lock.json
 
-# Env / konfigurasi lokal
-.env
+# konfigurasi lokal
 .DS_Store
