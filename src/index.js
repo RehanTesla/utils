@@ -21,6 +21,7 @@ import isURL from "./IsURL.js";
 import logCountdown from "./LogCountdown.js";
 import parseArray from "./ParseArray.js";
 import parseDrive from "./ParseDrive.js";
+import parseNumber from "./ParseNumber.js";
 import parseObject from "./ParseObject.js";
 import pickRandom from "./PickRandom.js";
 import randomNumber from "./RandomNumber.js";
@@ -57,6 +58,7 @@ const defaults = {
     parseArray,
     parseDrive,
     parseObject,
+    parseNumber,
     pickRandom,
     randomNumber,
     randomRange,
@@ -93,6 +95,7 @@ export {
     logCountdown,
     parseArray,
     parseDrive,
+    parseNumber,
     parseObject,
     pickRandom,
     randomNumber,
