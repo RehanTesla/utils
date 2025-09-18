@@ -1,6 +1,6 @@
 import isString from "./IsString.js";
 const isURL = str => {
-    if (IsString(str)) {
+    if (isString(str)) {
         if (!str.startsWith("http://") || !str.startsWith("https://"))
             str = "http://" + str.trim();
     }
