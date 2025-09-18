@@ -1,4 +1,4 @@
-import isObject from "./IsObject";
+import isObject from "./IsObject.js";
 import isBoolean from "./IsBoolean.js";
 const toPlainObject = (obj, andArray, arrMap) => {
     if (isObject(obj)) return obj;
