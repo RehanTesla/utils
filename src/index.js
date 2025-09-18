@@ -23,6 +23,7 @@ import parseArray from "./ParseArray.js";
 import parseDrive from "./ParseDrive.js";
 import parseNumber from "./ParseNumber.js";
 import parseObject from "./ParseObject.js";
+import parseString from "./ParseString.js";
 import pickRandom from "./PickRandom.js";
 import randomNumber from "./RandomNumber.js";
 import randomRange from "./RandomRange.js";
@@ -57,8 +58,9 @@ const defaults = {
     logCountdown,
     parseArray,
     parseDrive,
-    parseObject,
     parseNumber,
+    parseObject,
+    parseString,
     pickRandom,
     randomNumber,
     randomRange,
@@ -97,6 +99,7 @@ export {
     parseDrive,
     parseNumber,
     parseObject,
+    parseString,
     pickRandom,
     randomNumber,
     randomRange,
