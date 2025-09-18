@@ -1,5 +1,6 @@
 import moment from "moment-timezone";
-
+import isString from "./IsString.js";
+import isNumber from "./IsNumber.js";
 /**
  * Format waktu lengkap dengan ucapan sesuai jam, menggunakan moment-timezone
  *
@@ -18,7 +19,7 @@ import moment from "moment-timezone";
  *   ucapanWaktu: string
  * }}
  */
-const times = (time = Date.now(), tz = "Asia/Jakarta") => {
+const times = (time, tz) => {
     const hari = [
         "Minggu",
         "Senin",
@@ -42,9 +43,26 @@ const times = (time = Date.now(), tz = "Asia/Jakarta") => {
         "November",
         "Desember"
     ];
-
+    time = parseInt(time);
+    if (!isNumber(time)) {
+        time = Date.now();
+    }
+    if (isString(tz)) {
+        if (
+            !moment.tz
+                .names()
+                .some(item =>
+                    isString(item)
+                        ? item.toLowerCase() == tz.toLowerCase()
+                        : false
+                )
+        ) {
+            tz = "Asia/Jakarta";
+        }
+    } else {
+        tz = "Asia/Jakarta";
+    }
     const date = moment(time).tz(tz);
-
     let now = {};
     now.bulan = {};
     now.tahun = date.year().toString();
